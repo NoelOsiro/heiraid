@@ -32,9 +32,22 @@
         "errorDeleting": "Silme hatası.",
         "fileDeleted": "Dosya silindi"
     },
+    "maps": {
+        "filters": "Filtre",
+        "openFilters": "Filtreleri aç",
+        "noFilters": "Filtre yok",
+        "deleteModalTitle": "Filtreleri sil",
+        "deleteModalDescription": "Bu işlem geri alınamaz. Bu filtreleri silmek istiyor musunuz?",
+        "deleteLabel": "Sil",
+        "cancelLabel": "İptal",
+        "today": "Bugün",
+        "yesterday": "Dün",
+        "last7days": "Son 7 gün",
+        "last30days": "Son 30 gün"
+    },
     "developerSettings": "Geliştirici ayarları",
 
-    "chatEmptyStateTitle": "Verilerinizle sohbet edin",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Bir soru sorun veya bir örnek deneyin",
     "defaultExamples": {
         "1": "Northwind Health Plus planımda standart planda olmayan neler var?",

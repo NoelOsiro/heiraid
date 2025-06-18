@@ -1,0 +1,184 @@
+/* Main container styles */
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 64px); /* Account for header height */
+    background-color: #f3f2f1;
+}
+
+/* Layout structure */
+.chatRoot {
+    flex: 1;
+    display: flex;
+    position: relative;
+    transition: margin 0.3s ease;
+}
+
+.chatContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Map area styles */
+.mapArea {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.mapControls {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 1000;
+}
+
+.controlButton {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+.controlButton:hover {
+    background-color: #f3f2f1;
+}
+
+/* Map placeholder styles */
+.mapPlaceholder {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: #605e5c;
+    text-align: center;
+}
+
+.mapPinIcon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.mapPlaceholderText {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.mapPlaceholderSubtext {
+    color: #8a8886;
+    max-width: 300px;
+    margin: 0;
+}
+
+/* Panel styles */
+.searchContainer {
+    padding: 16px;
+    border-bottom: 1px solid #edebe9;
+}
+
+.searchBox {
+    width: 100%;
+}
+
+.filtersList {
+    padding: 8px 0;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.filterItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.filterItem:hover {
+    background-color: #f3f2f1;
+}
+
+.filterItem.selected {
+    background-color: #e1f5fe;
+    color: #0078d4;
+}
+
+.filterCount {
+    background-color: #f3f2f1;
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+/* Commands and controls */
+.commandsSplitContainer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 16px;
+}
+
+.commandsContainer {
+    display: flex;
+}
+
+.commandButton {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.375em;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .mapPlaceholderText {
+        font-size: 1.25rem;
+    }
+    
+    .mapPlaceholderSubtext {
+        font-size: 0.875rem;
+    }
+}
+
+/* Panel customization */
+:global(.ms-Panel) {
+    top: 48px !important;
+    height: calc(100vh - 48px) !important;
+}
+
+:global(.ms-Panel-main) {
+    width: 300px !important;
+    border-radius: 0 !important;
+}
+
+:global(.ms-Panel-content) {
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    height: 100% !important;
+}

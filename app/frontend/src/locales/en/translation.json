@@ -2,6 +2,7 @@
     "pageTitle": "HeirAid",
     "headerTitle": "HeirAid",
     "chat": "Chat",
+    "map": "Map",
     "qa": "Ask a question",
     "login": "Login",
     "logout": "Logout",
@@ -32,23 +33,37 @@
         "errorDeleting": "Error deleting.",
         "fileDeleted": "File deleted"
     },
+    "maps": {
+        "filters": "Filters",
+        "openFilters": "Open filters",
+        "noFilters": "No filters",
+        "deleteModalTitle": "Delete filters",
+        "deleteModalDescription": "This action cannot be undone. Delete these filters?",
+        "deleteLabel": "Delete",
+        "cancelLabel": "Cancel",
+        "today": "Today",
+        "yesterday": "Yesterday",
+        "last7days": "Last 7 days",
+        "last30days": "Last 30 days"
+    },
     "developerSettings": "Developer settings",
 
-    "chatEmptyStateTitle": "Chat with your data",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Ask anything or try an example",
     "defaultExamples": {
-        "1": "What steps do I take if a property owner dies without a will in Georgia?",
-        "2": "How can I find out if a property has unpaid taxes in Fulton County?",
-        "3": "What is the process of transferring property ownership in Atlanta after death?",
-        "placeholder": "Type a new question (e.g. does my plan cover annual eye exams?)"
+    "1": "What should I do if my granny passed and the house is still in her name?",
+    "2": "How can I check if there are unpaid property taxes on a home in Fulton County?",
+    "3": "What's the process to clear the title on an inherited property in Georgia?",
+    "placeholder": "Type a new question (e.g. can I qualify for home repair assistance without a clear title?)"
     },
     "askTitle": "Ask your data",
     "gpt4vExamples": {
-        "1": "Compare the impact of interest rates and GDP in financial markets.",
-        "2": "What is the expected trend for the S&P 500 index over the next five years? Compare it to the past S&P 500 performance",
-        "3": "Can you identify any correlation between oil prices and stock market trends?",
-        "placeholder": "Example: Does my plan cover annual eye exams?"
-    },
+    "1": "What should I do if my granny passed and the house is still in her name?",
+    "2": "How can I check if there are unpaid property taxes on a home in Fulton County?",
+    "3": "What's the process to clear the title on an inherited property in Georgia?",
+    "placeholder": "Type a new question (e.g. can I qualify for home repair assistance without a clear title?)"
+},
+
     "generatingAnswer": "Generating answer",
     "citationWithColon": "Citation:",
     "followupQuestions": "Follow-up questions:",

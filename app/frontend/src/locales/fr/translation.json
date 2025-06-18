@@ -2,6 +2,7 @@
     "pageTitle": "HeirAid",
     "headerTitle": "HeirAid",
     "chat": "Chat",
+    "map": "Map",
     "qa": "Posez une question",
     "login": "Connexion",
     "logout": "Déconnexion",
@@ -32,21 +33,35 @@
         "errorDeleting": "Erreur lors de la suppression.",
         "fileDeleted": "Fichier supprimé"
     },
+    "maps": {
+        "filters": "Filtre",
+        "openFilters": "Ouvrir les filtres",
+        "noFilters": "Aucun filtre",
+        "deleteModalTitle": "Supprimer les filtres",
+        "deleteModalDescription": "Cette action est irréversible. Supprimer ces filtres ?",
+        "deleteLabel": "Supprimer",
+        "cancelLabel": "Annuler",
+        "today": "Aujourd'hui",
+        "yesterday": "Hier",
+        "last7days": "7 derniers jours",
+        "last30days": "30 derniers jours"
+    },
     "developerSettings": "Paramètres développeur",
 
-    "chatEmptyStateTitle": "Discutez avec vos données",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Demandez n'importe quoi ou essayez un exemple",
     "defaultExamples": {
-        "1": "Qu'est-ce qui est inclus dans mon plan Northwind Health Plus qui n'est pas dans le standard?",
-        "2": "Qu'arrive-t-il lors d'un examen de performance?",
-        "3": "Qu'est-ce qu'un Product Manager fait?",
-        "placeholder": "Tapez une nouvelle question (par exemple, mon plan couvre-t-il les examens oculaires annuels?)"
-    },
+    "1": "Que dois-je faire si ma grand-mère est décédée et que la maison est toujours à son nom ?",
+    "2": "Comment vérifier si une propriété a des impôts fonciers impayés dans le comté de Fulton ?",
+    "3": "Quelle est la procédure pour clarifier le titre de propriété d’un bien hérité en Géorgie ?",
+    "placeholder": "Tapez une nouvelle question (par ex. puis-je obtenir de l'aide pour les réparations sans un titre clair ?)"
+}
+,
     "askTitle": "Demandez à vos données",
     "gpt4vExamples": {
-        "1": "Comparez l'impact des taux d'intérêt et du PIB sur les marchés financiers.",
-        "2": "Quelle est la tendance prévue pour l'indice S&P 500 au cours des cinq prochaines années? Comparez-le aux performances passées de l'S&P 500",
-        "3": "Pouvez-vous identifier une corrélation entre les prix du pétrole et les tendances du marché boursier?",
+        "1": "Que dois-je faire si ma grand-mère est décédée et que la maison est toujours à son nom ?",
+        "2": "Comment vérifier si une propriété a des impôts fonciers impayés dans le comté de Fulton ?",
+        "3": "Quelle est la procédure pour clarifier le titre de propriété d’un bien hérité en Géorgie ?",
         "placeholder": "Exemple: Mon plan couvre-t-il les examens oculaires annuels?"
     },
     "generatingAnswer": "Génération de la réponse",

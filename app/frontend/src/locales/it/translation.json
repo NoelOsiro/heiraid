@@ -2,6 +2,7 @@
     "pageTitle": "HeirAid",
     "headerTitle": "HeirAid",
     "chat": "Chat",
+    "map": "Map",
     "qa": "Fai una domanda",
     "login": "Accedi",
     "logout": "Disconnetti",
@@ -32,9 +33,22 @@
         "errorDeleting": "Errore durante l'eliminazione.",
         "fileDeleted": "File eliminato"
     },
+    "maps": {
+        "filters": "Filtro",
+        "openFilters": "Apri filtri",
+        "noFilters": "Nessun filtro",
+        "deleteModalTitle": "Elimina filtri",
+        "deleteModalDescription": "Questa azione è irreversibile. Eliminare questi filtri?",
+        "deleteLabel": "Elimina",
+        "cancelLabel": "Annulla",
+        "today": "Oggi",
+        "yesterday": "Ieri",
+        "last7days": "Ultimi 7 giorni",
+        "last30days": "Ultimi 30 giorni"
+    },
     "developerSettings": "Impostazioni sviluppatore",
 
-    "chatEmptyStateTitle": "Chatta con i tuoi dati",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Chiedi qualsiasi cosa o prova un esempio",
     "defaultExamples": {
         "1": "Cosa è incluso nel mio piano Northwind Health Plus che non è nello standard?",

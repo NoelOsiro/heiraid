@@ -85,7 +85,7 @@ class ChatVisionUser(HttpUser):
             json={
                 "messages": [
                     {
-                        "content": "Can you identify any correlation between oil prices and stock market trends?",
+                        "content": "Can you identify any relation between property taxes and unpaid property taxes?",
                         "role": "user",
                     }
                 ],
@@ -114,7 +114,7 @@ class ChatVisionUser(HttpUser):
             "/chat/stream",
             json={
                 "messages": [
-                    {"content": "Compare the impact of interest rates and GDP in financial markets.", "role": "user"}
+                    {"content": "What should I do if my granny passed and the house is still in her name?", "role": "user"}
                 ],
                 "context": {
                     "overrides": {

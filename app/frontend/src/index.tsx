@@ -7,9 +7,14 @@ import { initializeIcons } from "@fluentui/react";
 
 import "./index.css";
 
+import { lazy, Suspense } from "react";
 import Chat from "./pages/chat/Chat";
 import LayoutWrapper from "./layoutWrapper";
 import i18next from "./i18n/config";
+import ErrorPage from "./pages/ErrorPage";
+
+// Lazy load the Map component
+const Map = lazy(() => import("./pages/map/Map"));
 
 initializeIcons();
 
@@ -27,10 +32,19 @@ const router = createHashRouter([
                 lazy: () => import("./pages/ask/Ask")
             },
             {
+                path: "map",
+                element: (
+                    <Suspense fallback={<div style={{ textAlign: "center", padding: "20px", justifyContent: "center", alignItems: "center", display: "flex" }}>Loading map...</div>}>
+                        <Map />
+                    </Suspense>
+                )
+            },
+            {
                 path: "*",
                 lazy: () => import("./pages/NoPage")
             }
         ]
+        // errorElement: <ErrorPage />
     }
 ]);
 

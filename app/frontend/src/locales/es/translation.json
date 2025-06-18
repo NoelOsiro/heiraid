@@ -2,6 +2,7 @@
     "pageTitle": "HeirAid",
     "headerTitle": "HeirAid",
     "chat": "Chat",
+    "map": "Map",
     "qa": "Haz una pregunta",
     "login": "Iniciar sesión",
     "logout": "Cerrar sesión",
@@ -32,22 +33,35 @@
         "errorDeleting": "Error eliminando.",
         "fileDeleted": "Archivo eliminado"
     },
+    "maps": {
+        "filters": "Filtre",
+        "openFilters": "Abrir filtros",
+        "noFilters": "Sin filtros",
+        "deleteModalTitle": "Eliminar filtros",
+        "deleteModalDescription": "Esta acción no se puede deshacer. ¿Eliminar estos filtros?",
+        "deleteLabel": "Eliminar",
+        "cancelLabel": "Cancelar",
+        "today": "Hoy",
+        "yesterday": "Ayer",
+        "last7days": "Últimos 7 días",
+        "last30days": "Últimos 30 días"
+    },
     "developerSettings": "Configuración del desarrollador",
 
-    "chatEmptyStateTitle": "Chatea con tus datos",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Pregunta cualquier cosa o prueba un ejemplo",
     "defaultExamples": {
+    "1": "¿Qué debo hacer si mi abuela falleció y la casa aún está a su nombre?",
+    "2": "¿Cómo puedo verificar si una propiedad tiene impuestos atrasados en el condado de Fulton?",
+    "3": "¿Cuál es el proceso para limpiar el título de una propiedad heredada en Georgia?",
+    "placeholder": "Escribe una nueva pregunta (ej. ¿puedo calificar para asistencia de reparación de vivienda sin un título claro?)"
+},
+    "askTitle": "Pregunta a tus datos",
+    "gpt4vExamples": {
         "1": "¿Qué está incluido en mi plan Northwind Health Plus que no está en el estándar?",
         "2": "¿Qué sucede en una revisión de rendimiento?",
         "3": "¿Qué hace un Gerente de producto?",
         "placeholder": "Escribe una nueva pregunta (por ejemplo, ¿mi plan cubre exámenes anuales de la vista?)"
-    },
-    "askTitle": "Pregunta a tus datos",
-    "gpt4vExamples": {
-        "1": "Compara el impacto de las tasas de interés y el PIB en los mercados financieros.",
-        "2": "¿Cuál es la tendencia esperada para el índice S&P 500 en los próximos cinco años? Compáralo con el rendimiento pasado del S&P 500",
-        "3": "¿Puedes identificar alguna correlación entre los precios del petróleo y las tendencias del mercado de valores?",
-        "placeholder": "Ejemplo: ¿Mi plan cubre exámenes anuales de la vista?"
     },
     "generatingAnswer": "Generando respuesta",
     "citationWithColon": "Cita:",

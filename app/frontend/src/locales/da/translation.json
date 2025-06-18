@@ -2,6 +2,7 @@
     "pageTitle": "HeirAid",
     "headerTitle": "HeirAid",
     "chat": "Chat",
+    "map": "Map",
     "qa": "Stil et spørgsmål",
     "login": "Log ind",
     "logout": "Log ud",
@@ -32,21 +33,35 @@
         "errorDeleting": "Fejl ved sletning.",
         "fileDeleted": "Fil slettet"
     },
+    "maps": {
+        "filters": "Filtre",
+        "openFilters": "Åbn filtre",
+        "noFilters": "Ingen filtre",
+        "deleteModalTitle": "Slet filtre",
+        "deleteModalDescription": "Denne handling kan ikke fortrydes. Slet disse filtre?",
+        "deleteLabel": "Slet",
+        "cancelLabel": "Annullér",
+        "today": "I dag",
+        "yesterday": "I går",
+        "last7days": "Sidste 7 dage",
+        "last30days": "Sidste 30 dage"
+    },
     "developerSettings": "Udviklerindstillinger",
-    "chatEmptyStateTitle": "Chat med dine data",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Spørg om hvad som helst eller prøv et eksempel",
     "defaultExamples": {
-        "1": "Hvad er inkluderet i min Northwind Health Plus plan, som ikke er i standardplanen?",
-        "2": "Hvordan foregår en medarbejderevaluering?",
-        "3": "Hvad laver en produktchef?",
-        "placeholder": "Skriv et nyt spørgsmål (f.eks. dækker min plan årlige øjenundersøgelser?)"
-    },
+    "1": "Hvad skal jeg gøre, hvis min bedstemor er død, og huset stadig står i hendes navn?",
+    "2": "Hvordan kan jeg tjekke, om der er ubetalte ejendomsskatter på en bolig i Fulton County?",
+    "3": "Hvad er processen for at rydde ejendommens titel på en arvet bolig i Georgia?",
+    "placeholder": "Indtast et nyt spørgsmål (f.eks. kan jeg få boligstøtte uden en klar ejendomstitel?)"
+},
+
     "askTitle": "Spørg til dine data",
     "gpt4vExamples": {
-        "1": "Sammenlign effekten af renter og BNP på finansmarkederne.",
-        "2": "Hvad er den forventede tendens for S&P 500 indekset over de næste fem år? Sammenlign det med tidligere S&P 500 præstation.",
-        "3": "Kan du identificere nogen korrelation mellem oliepriser og aktiemarkedets tendenser?",
-        "placeholder": "Eksempel: Dækker min plan årlige øjenundersøgelser?"
+        "1": "Hvad skal jeg gøre, hvis min bedstemor er død, og huset stadig står i hendes navn?",
+        "2": "Hvordan kan jeg tjekke, om der er ubetalte ejendomsskatter på en bolig i Fulton County?",
+        "3": "Hvad er processen for at rydde ejendommens titel på en arvet bolig i Georgia?",
+        "placeholder": "Indtast et nyt spørgsmål (f.eks. kan jeg få boligstøtte uden en klar ejendomstitel?)"
     },
     "generatingAnswer": "Genererer svar",
     "citationWithColon": "Kilder:",

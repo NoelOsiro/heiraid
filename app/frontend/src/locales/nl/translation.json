@@ -32,9 +32,22 @@
         "errorDeleting": "Fout bij verwijderen.",
         "fileDeleted": "Bestand verwijderd"
     },
+    "maps": {
+        "filters": "Filters",
+        "openFilters": "Open filters",
+        "noFilters": "Geen filters",
+        "deleteModalTitle": "Verwijder filters",
+        "deleteModalDescription": "Deze actie kan niet ongedaan worden gemaakt. Deze filters verwijderen?",
+        "deleteLabel": "Verwijder",
+        "cancelLabel": "Annuleren",
+        "today": "Vandaag",
+        "yesterday": "Gisteren",
+        "last7days": "Laatste 7 dagen",
+        "last30days": "Laatste 30 dagen"
+    },
     "developerSettings": "Ontwikkelaarinstellingen",
 
-    "chatEmptyStateTitle": "Chat met je gegevens",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Stel een vraag of probeer een voorbeeld",
     "defaultExamples": {
         "1": "Wat zit er in mijn Northwind Health Plus-pakket dat niet in het standaardpakket zit?",

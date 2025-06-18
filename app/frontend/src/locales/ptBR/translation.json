@@ -32,9 +32,22 @@
         "errorDeleting": "Erro ao excluir.",
         "fileDeleted": "Arquivo excluído"
     },
+    "maps": {
+        "filters": "Filtros",
+        "openFilters": "Abrir filtros",
+        "noFilters": "Nenhum filtro",
+        "deleteModalTitle": "Excluir filtros",
+        "deleteModalDescription": "Esta ação não pode ser desfeita. Excluir estes filtros?",
+        "deleteLabel": "Excluir",
+        "cancelLabel": "Cancelar",
+        "today": "Hoje",
+        "yesterday": "Ontem",
+        "last7days": "Últimos 7 dias",
+        "last30days": "Últimos 30 dias"
+    },
     "developerSettings": "Configurações do desenvolvedor",
 
-    "chatEmptyStateTitle": "Converse com seus dados",
+    "chatEmptyStateTitle": "HeirAid",
     "chatEmptyStateSubtitle": "Pergunte qualquer coisa ou tente um exemplo",
     "defaultExamples": {
         "1": "O que está incluído no meu plano Northwind Health Plus que não está no padrão?",
