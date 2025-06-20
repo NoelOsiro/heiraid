@@ -11,7 +11,7 @@ import { lazy, Suspense } from "react";
 import Chat from "./pages/chat/Chat";
 import LayoutWrapper from "./layoutWrapper";
 import i18next from "./i18n/config";
-import ErrorPage from "./pages/ErrorPage";
+import ErrorPage from "./ErrorPage";
 
 // Lazy load the Map component
 const Map = lazy(() => import("./pages/map/Map"));
@@ -43,8 +43,8 @@ const router = createHashRouter([
                 path: "*",
                 lazy: () => import("./pages/NoPage")
             }
-        ]
-        // errorElement: <ErrorPage />
+        ],
+        errorElement: <ErrorPage />
     }
 ]);
 

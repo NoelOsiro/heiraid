@@ -139,7 +139,7 @@ hooks:
         continueOnError: false
       posix:
         shell: sh
-        run: ./scripts/auth_init.sh
+        run: chmod +x ./scripts/auth_init.sh;./scripts/auth_init.sh;chmod +x ./scripts/provision_maps.sh;./scripts/provision_maps.sh;
         interactive: true
         continueOnError: false
     postprovision:
@@ -150,6 +150,6 @@ hooks:
         continueOnError: false
       posix:
         shell: sh
-        run: ./scripts/auth_update.sh;./scripts/prepdocs.sh
+        run: chmod +x ./scripts/auth_update.sh;./scripts/auth_update.sh;chmod +x ./scripts/prepdocs.sh;./scripts/prepdocs.sh
         interactive: true
         continueOnError: false
